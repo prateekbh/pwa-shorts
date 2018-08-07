@@ -69,4 +69,6 @@ function getNewsFromDOM(domText) {
 	return newsData;
 }
 
-app.listen(15000, () => console.log('Example app listening on port 15000!'))
+
+const port = process.env.PORT || 15000
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
