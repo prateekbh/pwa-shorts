@@ -1,12 +1,12 @@
 const NEWS_FETCHED = 'NEWS_FETCHED';
 
-function FETCH_NEWS(offset) {
+function fetchNews(offset) {
 	return dispatch => {
-		fetch(`/api/fetch/national?offset=${offset}`)
+		fetch('/api/fetch/national')
 			.then(response => response.json())
 			.then(json => {
 				dispatch({
-					type: 'NEWS_FETCHED',
+					type: NEWS_FETCHED,
 					data: json
 				});
 			});
@@ -14,6 +14,6 @@ function FETCH_NEWS(offset) {
 }
 
 export {
-	FETCH_NEWS,
+	fetchNews,
 	NEWS_FETCHED
-};
+}
