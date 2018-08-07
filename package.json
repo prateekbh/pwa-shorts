@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npm run -s serve && node news-server.js",
+    "start": "node news-server.js",
     "build": "preact build",
     "serve": "preact build && preact serve",
     "dev": "preact watch",
