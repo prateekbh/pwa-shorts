@@ -52,11 +52,16 @@ function getNewsFromDOM(domText) {
 	dom.querySelectorAll('.news-card').forEach(news => {
 		const headline = news.querySelector('[itemprop=headline]').innerHTML;
 		const body = news.querySelector('[itemprop=articleBody]').innerHTML;
-		const img = news.querySelector('.news-card-image').getAttribute('style');
+		const img = news.querySelector('.news-card-image') ? news.querySelector('.news-card-image').getAttribute('style') : '';
+		const author = news.querySelector('.author') ? news.querySelector('.author').innerHTML : '';
+		const date = news.querySelector('.date') ? news.querySelector('.date').innerHTML : '';
 		newsData.push({
 			headline,
 			body,
-			img: `${imgRegExp.exec(img)[0]}400px:*`
+			img: `${imgRegExp.exec(img)[0]}400px:*`,
+			author,
+			date
+
 		});
 	});
 	return newsData;
