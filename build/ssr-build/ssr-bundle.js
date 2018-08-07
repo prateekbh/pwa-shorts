@@ -3321,41 +3321,19 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var header__ref = Object(preact_min["h"])(
 	Toolbar_default.a.Title,
 	null,
-	'Preact app'
+	'PWA Shorts'
 );
 
 var header__ref2 = Object(preact_min["h"])(
-	Toolbar_default.a.Icon,
-	null,
-	'settings'
-);
-
-var _ref3 = Object(preact_min["h"])(
 	List_default.a.ItemGraphic,
 	null,
 	'home'
 );
 
-var _ref4 = Object(preact_min["h"])(
+var _ref3 = Object(preact_min["h"])(
 	List_default.a.ItemGraphic,
 	null,
 	'account_circle'
-);
-
-var _ref5 = Object(preact_min["h"])(
-	Dialog_default.a.Header,
-	null,
-	'Settings'
-);
-
-var _ref6 = Object(preact_min["h"])(
-	Dialog_default.a.Footer,
-	null,
-	Object(preact_min["h"])(
-		Dialog_default.a.FooterButton,
-		{ accept: true },
-		'okay'
-	)
 );
 
 var header_Header = function (_Component) {
@@ -3376,31 +3354,16 @@ var header_Header = function (_Component) {
 			return _this.dialog.MDComponent.show();
 		}, _this.drawerRef = function (drawer) {
 			return _this.drawer = drawer;
-		}, _this.dialogRef = function (dialog) {
-			return _this.dialog = dialog;
 		}, _this.linkTo = function (path) {
 			return function () {
 				route(path);
 				_this.closeDrawer();
 			};
-		}, _this.goHome = _this.linkTo('/'), _this.goToMyProfile = _this.linkTo('/profile'), _this.toggleDarkTheme = function () {
-			_this.setState({
-				darkThemeEnabled: !_this.state.darkThemeEnabled
-			}, function () {
-				if (_this.state.darkThemeEnabled) {
-					document.body.classList.add('mdc-theme--dark');
-				} else {
-					document.body.classList.remove('mdc-theme--dark');
-				}
-			});
-		}, _temp), _possibleConstructorReturn(_this, _ret);
+		}, _this.goHome = _this.linkTo('/'), _this.goToMyProfile = _this.linkTo('/profile'), _temp), _possibleConstructorReturn(_this, _ret);
 	}
 
 	Header.prototype.closeDrawer = function closeDrawer() {
 		this.drawer.MDComponent.open = false;
-		this.state = {
-			darkThemeEnabled: false
-		};
 	};
 
 	Header.prototype.render = function render() {
@@ -3422,11 +3385,6 @@ var header_Header = function (_Component) {
 							'menu'
 						),
 						header__ref
-					),
-					Object(preact_min["h"])(
-						Toolbar_default.a.Section,
-						{ 'align-end': true, onClick: this.openSettings },
-						header__ref2
 					)
 				)
 			),
@@ -3439,32 +3397,16 @@ var header_Header = function (_Component) {
 					Object(preact_min["h"])(
 						Drawer_default.a.DrawerItem,
 						{ onClick: this.goHome },
-						_ref3,
+						header__ref2,
 						'Home'
 					),
 					Object(preact_min["h"])(
 						Drawer_default.a.DrawerItem,
 						{ onClick: this.goToMyProfile },
-						_ref4,
+						_ref3,
 						'Profile'
 					)
 				)
-			),
-			Object(preact_min["h"])(
-				Dialog_default.a,
-				{ ref: this.dialogRef },
-				_ref5,
-				Object(preact_min["h"])(
-					Dialog_default.a.Body,
-					null,
-					Object(preact_min["h"])(
-						'div',
-						null,
-						'Enable dark theme ',
-						Object(preact_min["h"])(Switch_default.a, { onClick: this.toggleDarkTheme })
-					)
-				),
-				_ref6
 			)
 		);
 	};
@@ -3566,7 +3508,7 @@ var news_tile_NewsTile = function (_Component) {
             null,
             Object(preact_min["h"])(
               Typography_default.a,
-              { headline6: true, 'class': home_style_default.a.caption },
+              { caption: true, 'class': home_style_default.a.headline },
               'by ',
               props.news.author
             )
