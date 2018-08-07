@@ -1,32 +1,31 @@
 import { h, Component } from 'preact';
-import {connect} from 'preact-redux';
+import { connect } from 'preact-redux';
 import Card from 'preact-material-components/Card';
 import 'preact-material-components/Card/style.css';
 import 'preact-material-components/Button/style.css';
 import style from './style';
 import { fetchNews } from '../../actions/actions';
+import NewsTile from './news-tile';
 
-export default class Home extends Component {
-  componentDidMount() {
-
-  }
-	render() {
+class Home extends Component {
+	componentDidMount() {
+		this.props.dispatch(fetchNews());
+	}
+	render(props) {
 		return (
 			<div class={style.home}>
-				<h1>Home route</h1>
-				<Card>
-					<div class={style.cardHeader}>
-						<h2 class=" mdc-typography--title">Home card</h2>
-						<div class=" mdc-typography--caption">Welcome to home route</div>
-					</div>
-					<div class={style.cardBody}>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-					</div>
-					<Card.Actions>
-						<Card.ActionButton>OKAY</Card.ActionButton>
-					</Card.Actions>
-				</Card>
+				{props.reducer.news.map(news=> {
+					return (
+						<NewsTile news={news}/>
+					);
+				})}
 			</div>
 		);
 	}
 }
+
+export default connect((state) =>
+({
+	reducer: state.reducer
+})
+)(Home);

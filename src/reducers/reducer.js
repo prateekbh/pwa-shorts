@@ -1,14 +1,10 @@
-import { INCREASE, DECREASE } from '../actions/actions';
+import { NEWS_FETCHED } from '../actions/actions';
 
-const initialState = { count: 0 };
 
-export default function gameReducer(state = initialState, action) {
+export default function gameReducer(state = { news: [] }, action) {
 	switch (action.type) {
-		case INCREASE: {
-			return (Object.assign({}, state, { count: state.count + 1 }));
-		}
-		case DECREASE: {
-			return (Object.assign({}, state, { count: state.count + 1 }));
+		case NEWS_FETCHED: {
+			return (Object.assign({}, state, action.data));
 		}
 		default:
 			return state;
