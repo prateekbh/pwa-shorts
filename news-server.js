@@ -3,9 +3,8 @@ const { JSDOM } = require("jsdom");
 const express = require('express');
 const app = express();
 
-// respond with "hello world" when a GET request is made to the homepage
 app.get('/api/fetch/:category', (req, res) => {
-	const offset = req.query.offset;
+	const offset = req.query.offset || '';
 	res.setHeader('Content-type', 'application/json');
 	fetchFromAPI(req.params.category, offset).then(response => {
 		res.send(JSON.stringify(response));
@@ -70,5 +69,6 @@ function getNewsFromDOM(domText) {
 }
 
 
-const port = process.env.PORT || 15000
+const port = process.env.PORT || 15000;
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

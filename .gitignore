@@ -63,5 +63,4 @@ typings/
 yarn.lock
 package-lock.json
 
-# custom
 build

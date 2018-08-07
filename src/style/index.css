@@ -8,7 +8,8 @@ html, body {
 	font-weight: 400;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+  --mdc-theme-primary: #0b5ce9;
 }
 
 /* fallback */
