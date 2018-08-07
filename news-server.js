@@ -20,6 +20,8 @@ app.get('/api/fetch/:category', (req, res) => {
 	// }
 });
 
+app.use(express.static('build'));
+
 function fetchFromAPI(category, news_offset) {
 	return fetch(`https://inshorts.com/en/ajax/more_news`, {
 		method: 'POST',
