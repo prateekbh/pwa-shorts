@@ -1,7 +1,10 @@
 const fetch = require('isomorphic-fetch');
-const { JSDOM } = require("jsdom");
+const { JSDOM } = require('jsdom');
 const express = require('express');
+const compression = require('compression');
+
 const app = express();
+app.use(compression());
 
 app.get('/api/fetch/:category', (req, res) => {
 	const offset = req.query.offset || '';
