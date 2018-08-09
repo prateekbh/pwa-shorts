@@ -9,6 +9,12 @@ function fetchNews(offset) {
 					type: NEWS_FETCHED,
 					data: json
 				});
+			}).catch(e => {
+				if (window.snackbar) {
+					window.snackbar.MDComponent.show({
+						message: 'Content fetching failed.'
+					});
+				}
 			});
 	};
 }
