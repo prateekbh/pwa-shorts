@@ -1,47 +1,43 @@
 self.__precacheManifest = [
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
+    "revision": "ee4d6ac21c7166a18424898d0ac50bce",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
   },
   {
     "revision": "01a5e93614cc1881a40af38ce4818662",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2048-1536.png"
   },
   {
-    "revision": "0a0e66a60f4bd41b9198",
-    "url": "/bundle.90390.css"
-  },
-  {
-    "revision": "914e4ace53e689269afb7c790701313b",
-    "url": "/route-home.chunk.ca6c5.esm.js"
-  },
-  {
-    "revision": "b155666319de2d4495ac395b1e3aa0d0",
-    "url": "/route-profile.chunk.ad3e8.esm.js"
-  },
-  {
-    "revision": "e5f60d65ede5f3e2918d21dc6ef6e186",
-    "url": "/polyfills.52265.esm.js"
-  },
-  {
-    "revision": "a03e9d89dc0ecc8ba82d303de904a288",
-    "url": "/bundle.fbfe4.esm.js"
-  },
-  {
-    "revision": "2c6bc537623ba5f3e748851af7a2d62e",
-    "url": "/index.html"
-  },
-  {
     "revision": "9239005c0361d6aae59af5095e246d2e",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2208-1242.png"
   },
   {
-    "revision": "a346aa7681b8b57989604d7f6d531056",
-    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-768-1024.png"
+    "revision": "a71f7337b69a09d82030",
+    "url": "/route-profile.chunk.a71f7.js"
+  },
+  {
+    "revision": "f89a6d8ad5b38063cefd",
+    "url": "/polyfills.f89a6.js"
+  },
+  {
+    "revision": "0a0e66a60f4bd41b9198",
+    "url": "/bundle.90390.css"
+  },
+  {
+    "revision": "0a0e66a60f4bd41b9198",
+    "url": "/bundle.0a0e6.js"
+  },
+  {
+    "revision": "b7eba93a872b8fb56946ff2ae746c0bd",
+    "url": "/index.html"
   },
   {
     "revision": "3b4e1b9bde38851130443a2624b43779",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-750-1334.png"
+  },
+  {
+    "revision": "a346aa7681b8b57989604d7f6d531056",
+    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-768-1024.png"
   },
   {
     "revision": "4b5a96a7f10914adbcd2af9ac73ff1ec",
@@ -50,6 +46,10 @@ self.__precacheManifest = [
   {
     "revision": "3a8ed6f4b81588a55d9ab5cd5642b331",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-640-1136.png"
+  },
+  {
+    "revision": "cc8dbcdd8f5d624fbf66",
+    "url": "/route-home.chunk.cc8db.js"
   },
   {
     "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-64-64.png"
   },
   {
-    "revision": "ee4d6ac21c7166a18424898d0ac50bce",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
   },
   {
     "revision": "44eb0bfbb95531d7a03387b16460eec0",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-512-512.png"
   },
   {
-    "revision": "90f4c08a15d248239085475723e1b204",
-    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
+    "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
+    "url": "/assets/icons/favicon-32x32.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
@@ -156,12 +156,12 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-192-192.png"
   },
   {
-    "revision": "ba817517b2c4e1ba1ce802c4d4fafdb4",
-    "url": "/assets/icons/mstile-150x150.png"
+    "revision": "90f4c08a15d248239085475723e1b204",
+    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
   },
   {
-    "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
-    "url": "/assets/icons/favicon-32x32.png"
+    "revision": "ba817517b2c4e1ba1ce802c4d4fafdb4",
+    "url": "/assets/icons/mstile-150x150.png"
   },
   {
     "revision": "d712b605ed58419c7e6d4ab885d147b7",
