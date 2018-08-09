@@ -8,27 +8,27 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2048-1536.png"
   },
   {
-    "revision": "b6b61bdd97772b72335e",
+    "revision": "0a0e66a60f4bd41b9198",
     "url": "/bundle.90390.css"
   },
   {
-    "revision": "58e24d29e2bdedab2bcfd9d34941133d",
-    "url": "/route-home.chunk.8bb0e.esm.js"
+    "revision": "914e4ace53e689269afb7c790701313b",
+    "url": "/route-home.chunk.ca6c5.esm.js"
   },
   {
-    "revision": "24d253edbd1b8f3b145460c365806257",
-    "url": "/route-profile.chunk.827d5.esm.js"
+    "revision": "b155666319de2d4495ac395b1e3aa0d0",
+    "url": "/route-profile.chunk.ad3e8.esm.js"
   },
   {
     "revision": "e5f60d65ede5f3e2918d21dc6ef6e186",
     "url": "/polyfills.52265.esm.js"
   },
   {
-    "revision": "8c07287ec34082ce8f16b1194549b4bc",
-    "url": "/bundle.97a3b.esm.js"
+    "revision": "a03e9d89dc0ecc8ba82d303de904a288",
+    "url": "/bundle.fbfe4.esm.js"
   },
   {
-    "revision": "f4b09c7c60ae3a0ad079a64ae99d439f",
+    "revision": "2c6bc537623ba5f3e748851af7a2d62e",
     "url": "/index.html"
   },
   {
@@ -52,20 +52,16 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-640-1136.png"
   },
   {
-    "revision": "8efb6b00c73794fe9e4c17e044183fcf",
-    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-152-152.png"
+    "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-256-256.png"
   },
   {
     "revision": "d75e0dba7e1ddef0a79c0d303f94cd37",
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-96-96.png"
   },
   {
-    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
-  },
-  {
     "revision": "b7dc9fb488a9d00d331e221f26464c26",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
   },
   {
     "revision": "a881c8c8d0d74575357b29a2e705e028",
@@ -76,16 +72,20 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
   },
   {
+    "revision": "b7dc9fb488a9d00d331e221f26464c26",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
+  },
+  {
+    "revision": "66b72e4268c04b0680b388b3f15856f9",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+  },
+  {
     "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-48-48.png"
   },
   {
     "revision": "34511c62050cb640ad1bbf34ca9e3056",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-64-64.png"
-  },
-  {
-    "revision": "66b72e4268c04b0680b388b3f15856f9",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
   },
   {
     "revision": "ee4d6ac21c7166a18424898d0ac50bce",
@@ -112,20 +112,20 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-appicon-1024-1024.png"
   },
   {
-    "revision": "a8f1336c3fe4f57873d8868141996cb1",
-    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1024-768.png"
-  },
-  {
     "revision": "58dcf7e6e4246c4b7ae3141426d346eb",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1334-750.png"
   },
   {
-    "revision": "b7dc9fb488a9d00d331e221f26464c26",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
+    "revision": "a8f1336c3fe4f57873d8868141996cb1",
+    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1024-768.png"
   },
   {
-    "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-256-256.png"
+    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
+  },
+  {
+    "revision": "8efb6b00c73794fe9e4c17e044183fcf",
+    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-152-152.png"
   },
   {
     "revision": "ce686084b504d9adc6cbce17d7737d2c",
@@ -180,11 +180,11 @@ self.__precacheManifest = [
     "url": "/assets/icons/android-chrome-192x192.png"
   },
   {
-    "revision": "a002616c3bd72b6e84fa",
-    "url": "/1.chunk.2296c.css"
+    "revision": "a71f7337b69a09d82030",
+    "url": "/1.chunk.6e09f.css"
   },
   {
-    "revision": "5b441fc8bda1efaba47e",
-    "url": "/0.chunk.af2dd.css"
+    "revision": "cc8dbcdd8f5d624fbf66",
+    "url": "/0.chunk.67f84.css"
   }
 ];

@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2208-1242.png"
   },
   {
-    "revision": "a002616c3bd72b6e84fa",
-    "url": "/route-profile.chunk.a0026.js"
+    "revision": "a71f7337b69a09d82030",
+    "url": "/route-profile.chunk.a71f7.js"
   },
   {
     "revision": "f89a6d8ad5b38063cefd",
     "url": "/polyfills.f89a6.js"
   },
   {
-    "revision": "b6b61bdd97772b72335e",
+    "revision": "0a0e66a60f4bd41b9198",
     "url": "/bundle.90390.css"
   },
   {
-    "revision": "b6b61bdd97772b72335e",
-    "url": "/bundle.b6b61.js"
+    "revision": "0a0e66a60f4bd41b9198",
+    "url": "/bundle.0a0e6.js"
   },
   {
-    "revision": "f4b09c7c60ae3a0ad079a64ae99d439f",
+    "revision": "2c6bc537623ba5f3e748851af7a2d62e",
     "url": "/index.html"
   },
   {
@@ -48,24 +48,20 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-640-1136.png"
   },
   {
-    "revision": "5b441fc8bda1efaba47e",
-    "url": "/route-home.chunk.5b441.js"
+    "revision": "cc8dbcdd8f5d624fbf66",
+    "url": "/route-home.chunk.cc8db.js"
   },
   {
-    "revision": "8efb6b00c73794fe9e4c17e044183fcf",
-    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-152-152.png"
+    "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-256-256.png"
   },
   {
     "revision": "d75e0dba7e1ddef0a79c0d303f94cd37",
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-96-96.png"
   },
   {
-    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
-  },
-  {
     "revision": "b7dc9fb488a9d00d331e221f26464c26",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
   },
   {
     "revision": "a881c8c8d0d74575357b29a2e705e028",
@@ -76,16 +72,20 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
   },
   {
+    "revision": "b7dc9fb488a9d00d331e221f26464c26",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
+  },
+  {
+    "revision": "66b72e4268c04b0680b388b3f15856f9",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+  },
+  {
     "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-48-48.png"
   },
   {
     "revision": "34511c62050cb640ad1bbf34ca9e3056",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-64-64.png"
-  },
-  {
-    "revision": "66b72e4268c04b0680b388b3f15856f9",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
   },
   {
     "revision": "ee4d6ac21c7166a18424898d0ac50bce",
@@ -112,20 +112,20 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-appicon-1024-1024.png"
   },
   {
-    "revision": "a8f1336c3fe4f57873d8868141996cb1",
-    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1024-768.png"
-  },
-  {
     "revision": "58dcf7e6e4246c4b7ae3141426d346eb",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1334-750.png"
   },
   {
-    "revision": "b7dc9fb488a9d00d331e221f26464c26",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
+    "revision": "a8f1336c3fe4f57873d8868141996cb1",
+    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1024-768.png"
   },
   {
-    "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-256-256.png"
+    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
+  },
+  {
+    "revision": "8efb6b00c73794fe9e4c17e044183fcf",
+    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-152-152.png"
   },
   {
     "revision": "ce686084b504d9adc6cbce17d7737d2c",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-512-512.png"
   },
   {
-    "revision": "d712b605ed58419c7e6d4ab885d147b7",
-    "url": "/assets/icons/favicon-16x16.png"
+    "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
+    "url": "/assets/icons/favicon-32x32.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
-    "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
-    "url": "/assets/icons/favicon-32x32.png"
+    "revision": "d712b605ed58419c7e6d4ab885d147b7",
+    "url": "/assets/icons/favicon-16x16.png"
   },
   {
     "revision": "a0e46feb3cc577478b127936e739dd08",
@@ -180,11 +180,11 @@ self.__precacheManifest = [
     "url": "/assets/icons/android-chrome-192x192.png"
   },
   {
-    "revision": "a002616c3bd72b6e84fa",
-    "url": "/1.chunk.2296c.css"
+    "revision": "a71f7337b69a09d82030",
+    "url": "/1.chunk.6e09f.css"
   },
   {
-    "revision": "5b441fc8bda1efaba47e",
-    "url": "/0.chunk.af2dd.css"
+    "revision": "cc8dbcdd8f5d624fbf66",
+    "url": "/0.chunk.67f84.css"
   }
 ];
