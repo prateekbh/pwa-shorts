@@ -1,24 +1,28 @@
 import { h, Component } from 'preact';
 import { connect } from 'preact-redux';
-import Card from 'preact-material-components/Card';
-import 'preact-material-components/Card/style.css';
 import 'preact-material-components/Button/style.css';
 import style from './style';
-import { fetchNews } from '../../actions/actions';
+import { fetchNews, NEWS_FETCHED } from '../../actions/actions';
 import NewsTile from './news-tile';
 
 class Home extends Component {
 	componentDidMount() {
+		caches.match('api/fetch/national').then(response => {
+			if (response && response.ok) {
+				response.json().then(data => {
+					(this.props.reducer.news.length === 0) && this.props.dispatch({
+						type: NEWS_FETCHED,
+						data
+					});
+				});
+			}
+		});
 		this.props.dispatch(fetchNews());
 	}
 	render(props) {
 		return (
 			<div class={style.home}>
-				{props.reducer.news.map(news=> {
-					return (
-						<NewsTile news={news}/>
-					);
-				})}
+				{props.reducer.news.map(news => <NewsTile news={news} />)}
 			</div>
 		);
 	}
