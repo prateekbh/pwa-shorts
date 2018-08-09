@@ -1,12 +1,16 @@
 import { h, Component } from 'preact';
 import { connect } from 'preact-redux';
-import 'preact-material-components/Button/style.css';
+import Snackbar from 'preact-material-components/Snackbar';
+import 'preact-material-components/Snackbar/style.css';
 import style from './style';
 import { fetchNews, NEWS_FETCHED } from '../../actions/actions';
 import NewsTile from './news-tile';
 
 class Home extends Component {
 	componentDidMount() {
+		this.bar.MDComponent.show({
+			message: 'Fetching fresh content.'
+		});
 		caches.match('api/fetch/national').then(response => {
 			if (response && response.ok) {
 				response.json().then(data => {
@@ -23,6 +27,11 @@ class Home extends Component {
 		return (
 			<div class={style.home}>
 				{props.reducer.news.map(news => <NewsTile news={news} />)}
+				<Snackbar ref={bar => {
+					this.bar=bar;
+					window.snackbar = bar;
+				}}
+				/>
 			</div>
 		);
 	}
