@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ee4d6ac21c7166a18424898d0ac50bce",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
   },
   {
     "revision": "01a5e93614cc1881a40af38ce4818662",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2048-1536.png"
   },
   {
-    "revision": "0a0e66a60f4bd41b9198",
+    "revision": "8ae2f46101286465e8e9",
     "url": "/bundle.90390.css"
   },
   {
-    "revision": "914e4ace53e689269afb7c790701313b",
-    "url": "/route-home.chunk.ca6c5.esm.js"
+    "revision": "06af388b21f74d64b5e8c796741ff558",
+    "url": "/route-home.chunk.ef2b4.esm.js"
   },
   {
     "revision": "b155666319de2d4495ac395b1e3aa0d0",
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/polyfills.52265.esm.js"
   },
   {
-    "revision": "a03e9d89dc0ecc8ba82d303de904a288",
-    "url": "/bundle.fbfe4.esm.js"
+    "revision": "1fe08ac3e839a99f399b1a90e426587b",
+    "url": "/bundle.c70a7.esm.js"
   },
   {
-    "revision": "b7eba93a872b8fb56946ff2ae746c0bd",
+    "revision": "9529ac6b913deb0479cfb59532346752",
     "url": "/index.html"
   },
   {
@@ -68,16 +68,12 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/chrome/chrome-installprocess-128-128.png"
   },
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
-  },
-  {
     "revision": "b7dc9fb488a9d00d331e221f26464c26",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
   },
   {
-    "revision": "66b72e4268c04b0680b388b3f15856f9",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
   },
   {
     "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
@@ -88,8 +84,12 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-64-64.png"
   },
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
+    "revision": "66b72e4268c04b0680b388b3f15856f9",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+  },
+  {
+    "revision": "ee4d6ac21c7166a18424898d0ac50bce",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
   },
   {
     "revision": "44eb0bfbb95531d7a03387b16460eec0",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/1.chunk.6e09f.css"
   },
   {
-    "revision": "cc8dbcdd8f5d624fbf66",
-    "url": "/0.chunk.67f84.css"
+    "revision": "382e10e1f6605cd23f87",
+    "url": "/0.chunk.5c61c.css"
   }
 ];

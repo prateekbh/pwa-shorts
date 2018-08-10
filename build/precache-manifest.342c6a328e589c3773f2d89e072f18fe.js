@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "ee4d6ac21c7166a18424898d0ac50bce",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
   },
   {
     "revision": "01a5e93614cc1881a40af38ce4818662",
@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/polyfills.f89a6.js"
   },
   {
-    "revision": "0a0e66a60f4bd41b9198",
+    "revision": "8ae2f46101286465e8e9",
     "url": "/bundle.90390.css"
   },
   {
-    "revision": "0a0e66a60f4bd41b9198",
-    "url": "/bundle.0a0e6.js"
+    "revision": "8ae2f46101286465e8e9",
+    "url": "/bundle.8ae2f.js"
   },
   {
-    "revision": "b7eba93a872b8fb56946ff2ae746c0bd",
+    "revision": "9529ac6b913deb0479cfb59532346752",
     "url": "/index.html"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-640-1136.png"
   },
   {
-    "revision": "cc8dbcdd8f5d624fbf66",
-    "url": "/route-home.chunk.cc8db.js"
+    "revision": "382e10e1f6605cd23f87",
+    "url": "/route-home.chunk.382e1.js"
   },
   {
     "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
@@ -68,16 +68,12 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/chrome/chrome-installprocess-128-128.png"
   },
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
-  },
-  {
     "revision": "b7dc9fb488a9d00d331e221f26464c26",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
   },
   {
-    "revision": "66b72e4268c04b0680b388b3f15856f9",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
   },
   {
     "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
@@ -88,8 +84,12 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-64-64.png"
   },
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
+    "revision": "66b72e4268c04b0680b388b3f15856f9",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+  },
+  {
+    "revision": "ee4d6ac21c7166a18424898d0ac50bce",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
   },
   {
     "revision": "44eb0bfbb95531d7a03387b16460eec0",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-512-512.png"
   },
   {
-    "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
-    "url": "/assets/icons/favicon-32x32.png"
+    "revision": "d712b605ed58419c7e6d4ab885d147b7",
+    "url": "/assets/icons/favicon-16x16.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
-    "revision": "d712b605ed58419c7e6d4ab885d147b7",
-    "url": "/assets/icons/favicon-16x16.png"
+    "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
+    "url": "/assets/icons/favicon-32x32.png"
   },
   {
     "revision": "a0e46feb3cc577478b127936e739dd08",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/1.chunk.6e09f.css"
   },
   {
-    "revision": "cc8dbcdd8f5d624fbf66",
-    "url": "/0.chunk.67f84.css"
+    "revision": "382e10e1f6605cd23f87",
+    "url": "/0.chunk.5c61c.css"
   }
 ];
