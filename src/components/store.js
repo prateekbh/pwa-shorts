@@ -9,7 +9,7 @@ const logger = createLogger({
 });
 
 let middlewares = [thunk];
-if (process.env.NODE_ENV === `development`) {
+if (process.env.NODE_ENV === `development` || true) {
 	middlewares.push(logger);
 }
 

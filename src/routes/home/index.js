@@ -8,9 +8,11 @@ import NewsTile from './news-tile';
 
 class Home extends Component {
 	componentDidMount() {
-		this.bar.MDComponent.show({
-			message: 'Fetching fresh content.'
-		});
+    setTimeout(() => {
+      this.bar.MDComponent.show({
+        message: 'Fetching fresh content.'
+      });
+    }, 500);
 		caches.match('api/fetch/national').then(response => {
 			if (response && response.ok) {
 				response.json().then(data => {
