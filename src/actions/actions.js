@@ -1,4 +1,5 @@
 const NEWS_FETCHED = 'NEWS_FETCHED';
+const STALE_NEWS_FETCHED = 'STALE_NEWS_FETCHED';
 
 function fetchNews(offset) {
 	return dispatch => {
@@ -21,5 +22,6 @@ function fetchNews(offset) {
 
 export {
 	fetchNews,
-	NEWS_FETCHED
-}
+	NEWS_FETCHED,
+	STALE_NEWS_FETCHED
+};
