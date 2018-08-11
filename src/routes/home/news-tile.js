@@ -9,7 +9,7 @@ import ViewableMonitor from '../../components/ViewableMonitor';
 
 export default class NewsTile extends Component {
 	routeToDetails = () => {
-		route(`/news/${this.props.md5}`);
+		route(`/news/${this.props.news.md5}`);
 	}
 	render(props) {
 		const options = {
