@@ -8,32 +8,28 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2048-1536.png"
   },
   {
-    "revision": "8ae2f46101286465e8e9",
-    "url": "/bundle.90390.css"
-  },
-  {
-    "revision": "06af388b21f74d64b5e8c796741ff558",
-    "url": "/route-home.chunk.ef2b4.esm.js"
-  },
-  {
-    "revision": "b155666319de2d4495ac395b1e3aa0d0",
-    "url": "/route-profile.chunk.ad3e8.esm.js"
-  },
-  {
-    "revision": "e5f60d65ede5f3e2918d21dc6ef6e186",
-    "url": "/polyfills.52265.esm.js"
-  },
-  {
-    "revision": "1fe08ac3e839a99f399b1a90e426587b",
-    "url": "/bundle.c70a7.esm.js"
-  },
-  {
-    "revision": "9529ac6b913deb0479cfb59532346752",
-    "url": "/index.html"
-  },
-  {
     "revision": "9239005c0361d6aae59af5095e246d2e",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2208-1242.png"
+  },
+  {
+    "revision": "a71f7337b69a09d82030",
+    "url": "/route-profile.chunk.a71f7.js"
+  },
+  {
+    "revision": "f89a6d8ad5b38063cefd",
+    "url": "/polyfills.f89a6.js"
+  },
+  {
+    "revision": "81fe418023b38175576f",
+    "url": "/bundle.bae3c.css"
+  },
+  {
+    "revision": "81fe418023b38175576f",
+    "url": "/bundle.81fe4.js"
+  },
+  {
+    "revision": "5321d3e969d4bb94eac274f9d0235e48",
+    "url": "/index.html"
   },
   {
     "revision": "a346aa7681b8b57989604d7f6d531056",
@@ -50,6 +46,10 @@ self.__precacheManifest = [
   {
     "revision": "3a8ed6f4b81588a55d9ab5cd5642b331",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-640-1136.png"
+  },
+  {
+    "revision": "ee0f9fdf2a9cef37e19a",
+    "url": "/route-home.chunk.ee0f9.js"
   },
   {
     "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-512-512.png"
   },
   {
-    "revision": "90f4c08a15d248239085475723e1b204",
-    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
+    "revision": "d712b605ed58419c7e6d4ab885d147b7",
+    "url": "/assets/icons/favicon-16x16.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
@@ -156,16 +156,16 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-192-192.png"
   },
   {
+    "revision": "90f4c08a15d248239085475723e1b204",
+    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
+  },
+  {
     "revision": "ba817517b2c4e1ba1ce802c4d4fafdb4",
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
     "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
     "url": "/assets/icons/favicon-32x32.png"
-  },
-  {
-    "revision": "d712b605ed58419c7e6d4ab885d147b7",
-    "url": "/assets/icons/favicon-16x16.png"
   },
   {
     "revision": "a0e46feb3cc577478b127936e739dd08",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/1.chunk.6e09f.css"
   },
   {
-    "revision": "382e10e1f6605cd23f87",
+    "revision": "ee0f9fdf2a9cef37e19a",
     "url": "/0.chunk.5c61c.css"
   }
 ];
