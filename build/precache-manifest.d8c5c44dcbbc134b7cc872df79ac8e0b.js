@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "ffdf544548ee8f655f06e14687093e8c",
-    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-120-120.png"
-  },
-  {
-    "revision": "29a870e3b0e3de54ba69",
-    "url": "/route-home.chunk.29a87.js"
-  },
-  {
-    "revision": "a41be86f697f212307b6",
-    "url": "/route-profile.chunk.a41be.js"
-  },
-  {
-    "revision": "6d768d9bab3a45abb5a5",
-    "url": "/style.0556c.css"
-  },
-  {
-    "revision": "59e221032ab061cad83b6ce2bcddbde8",
-    "url": "/assets/icons/android-chrome-192x192.png"
-  },
-  {
-    "revision": "63c79e0d5b43b9a44323",
-    "url": "/polyfills.63c79.js"
-  },
-  {
-    "revision": "a0e46feb3cc577478b127936e739dd08",
-    "url": "/assets/icons/apple-touch-icon.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
   },
   {
     "revision": "01a5e93614cc1881a40af38ce4818662",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-2048-1536.png"
+  },
+  {
+    "revision": "8ae2f46101286465e8e9",
+    "url": "/bundle.90390.css"
+  },
+  {
+    "revision": "06af388b21f74d64b5e8c796741ff558",
+    "url": "/route-home.chunk.ef2b4.esm.js"
+  },
+  {
+    "revision": "b155666319de2d4495ac395b1e3aa0d0",
+    "url": "/route-profile.chunk.ad3e8.esm.js"
+  },
+  {
+    "revision": "e5f60d65ede5f3e2918d21dc6ef6e186",
+    "url": "/polyfills.52265.esm.js"
+  },
+  {
+    "revision": "1fe08ac3e839a99f399b1a90e426587b",
+    "url": "/bundle.c70a7.esm.js"
+  },
+  {
+    "revision": "9529ac6b913deb0479cfb59532346752",
+    "url": "/index.html"
   },
   {
     "revision": "9239005c0361d6aae59af5095e246d2e",
@@ -52,28 +52,36 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-640-1136.png"
   },
   {
-    "revision": "ab561d7ebab0c074042c8ebb194625e1",
-    "url": "/index.html"
+    "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-256-256.png"
   },
   {
-    "revision": "6d768d9bab3a45abb5a5",
-    "url": "/bundle.6d768.js"
+    "revision": "d75e0dba7e1ddef0a79c0d303f94cd37",
+    "url": "/assets/pwa-shorts-icons/android/android-launchericon-96-96.png"
   },
   {
-    "revision": "ce686084b504d9adc6cbce17d7737d2c",
-    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-180-180.png"
+    "revision": "b7dc9fb488a9d00d331e221f26464c26",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
+  },
+  {
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-installprocess-128-128.png"
   },
   {
     "revision": "a881c8c8d0d74575357b29a2e705e028",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
   },
   {
-    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-48-48.png"
+    "revision": "b7dc9fb488a9d00d331e221f26464c26",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
   },
   {
     "revision": "66b72e4268c04b0680b388b3f15856f9",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
+  },
+  {
+    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-48-48.png"
   },
   {
     "revision": "34511c62050cb640ad1bbf34ca9e3056",
@@ -84,12 +92,12 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-90-90.png"
   },
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-128-128.png"
-  },
-  {
     "revision": "44eb0bfbb95531d7a03387b16460eec0",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1536-2048.png"
+  },
+  {
+    "revision": "ffdf544548ee8f655f06e14687093e8c",
+    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-120-120.png"
   },
   {
     "revision": "0165b9e8217efa50440143bc7f55f082",
@@ -112,44 +120,32 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1024-768.png"
   },
   {
-    "revision": "21ee12aa40b1c6b6eb5041abc39946a4",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-256-256.png"
+    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
   },
   {
     "revision": "8efb6b00c73794fe9e4c17e044183fcf",
     "url": "/assets/pwa-shorts-icons/ios/ios-appicon-152-152.png"
   },
   {
-    "revision": "b7dc9fb488a9d00d331e221f26464c26",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
+    "revision": "ce686084b504d9adc6cbce17d7737d2c",
+    "url": "/assets/pwa-shorts-icons/ios/ios-appicon-180-180.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-512-512.png"
   },
   {
-    "revision": "b48b11c5c0eb50f1cf602d16e28d2538",
-    "url": "/assets/pwa-shorts-icons/android/android-launchericon-72-72.png"
+    "revision": "90f4c08a15d248239085475723e1b204",
+    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-512-512.png"
   },
   {
-    "revision": "d75e0dba7e1ddef0a79c0d303f94cd37",
-    "url": "/assets/pwa-shorts-icons/android/android-launchericon-96-96.png"
-  },
-  {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-installprocess-128-128.png"
-  },
-  {
-    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
-  },
-  {
-    "revision": "b7dc9fb488a9d00d331e221f26464c26",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
+    "revision": "b48b11c5c0eb50f1cf602d16e28d2538",
+    "url": "/assets/pwa-shorts-icons/android/android-launchericon-72-72.png"
   },
   {
     "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
@@ -158,10 +154,6 @@ self.__precacheManifest = [
   {
     "revision": "8e4c23298c4d3d47bfdbc083dee9ad61",
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-192-192.png"
-  },
-  {
-    "revision": "90f4c08a15d248239085475723e1b204",
-    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
   },
   {
     "revision": "ba817517b2c4e1ba1ce802c4d4fafdb4",
@@ -176,7 +168,23 @@ self.__precacheManifest = [
     "url": "/assets/icons/favicon-16x16.png"
   },
   {
+    "revision": "a0e46feb3cc577478b127936e739dd08",
+    "url": "/assets/icons/apple-touch-icon.png"
+  },
+  {
     "revision": "cf3fdf7af60a294d6d3f48cb7ad82488",
     "url": "/assets/icons/android-chrome-512x512.png"
+  },
+  {
+    "revision": "59e221032ab061cad83b6ce2bcddbde8",
+    "url": "/assets/icons/android-chrome-192x192.png"
+  },
+  {
+    "revision": "a71f7337b69a09d82030",
+    "url": "/1.chunk.6e09f.css"
+  },
+  {
+    "revision": "382e10e1f6605cd23f87",
+    "url": "/0.chunk.5c61c.css"
   }
 ];
