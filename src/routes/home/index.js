@@ -3,21 +3,21 @@ import { connect } from 'preact-redux';
 import Snackbar from 'preact-material-components/Snackbar';
 import 'preact-material-components/Snackbar/style.css';
 import style from './style';
-import { fetchNews, NEWS_FETCHED } from '../../actions/actions';
+import { fetchNews, STALE_NEWS_FETCHED } from '../../actions/actions';
 import NewsTile from './news-tile';
 
 class Home extends Component {
 	componentDidMount() {
-    setTimeout(() => {
-      this.bar.MDComponent.show({
-        message: 'Fetching fresh content.'
-      });
-    }, 500);
+		setTimeout(() => {
+			this.bar.MDComponent.show({
+				message: 'Fetching fresh content.'
+			});
+		}, 500);
 		caches.match('api/fetch/national').then(response => {
 			if (response && response.ok) {
 				response.json().then(data => {
 					(this.props.reducer.news.length === 0) && this.props.dispatch({
-						type: NEWS_FETCHED,
+						type: STALE_NEWS_FETCHED,
 						data
 					});
 				});
