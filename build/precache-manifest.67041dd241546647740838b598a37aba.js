@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
-    "revision": "a346aa7681b8b57989604d7f6d531056",
-    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-768-1024.png"
-  },
-  {
     "revision": "3b4e1b9bde38851130443a2624b43779",
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-750-1334.png"
+  },
+  {
+    "revision": "a346aa7681b8b57989604d7f6d531056",
+    "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-768-1024.png"
   },
   {
     "revision": "4b5a96a7f10914adbcd2af9ac73ff1ec",
@@ -64,24 +64,24 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/chrome/chrome-favicon-16-16.png"
   },
   {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-installprocess-128-128.png"
-  },
-  {
-    "revision": "a881c8c8d0d74575357b29a2e705e028",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
+    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
   },
   {
     "revision": "b7dc9fb488a9d00d331e221f26464c26",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-16-16.png"
   },
   {
-    "revision": "66b72e4268c04b0680b388b3f15856f9",
-    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
-  },
-  {
     "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
     "url": "/assets/pwa-shorts-icons/firefox/firefox-general-48-48.png"
+  },
+  {
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-128-128.png"
+  },
+  {
+    "revision": "66b72e4268c04b0680b388b3f15856f9",
+    "url": "/assets/pwa-shorts-icons/firefox/firefox-general-32-32.png"
   },
   {
     "revision": "34511c62050cb640ad1bbf34ca9e3056",
@@ -120,8 +120,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/ios/ios-launchimage-1024-768.png"
   },
   {
-    "revision": "39a7bb132c5e8e68610b2ea0f81eacf8",
-    "url": "/assets/pwa-shorts-icons/chrome/chrome-extensionmanagementpage-48-48.png"
+    "revision": "a881c8c8d0d74575357b29a2e705e028",
+    "url": "/assets/pwa-shorts-icons/chrome/chrome-installprocess-128-128.png"
   },
   {
     "revision": "8efb6b00c73794fe9e4c17e044183fcf",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/firefox/firefox-marketplace-512-512.png"
   },
   {
-    "revision": "d712b605ed58419c7e6d4ab885d147b7",
-    "url": "/assets/icons/favicon-16x16.png"
+    "revision": "90f4c08a15d248239085475723e1b204",
+    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
   },
   {
     "revision": "494dcdd323ae0f935369e424ff79eebe",
@@ -156,16 +156,16 @@ self.__precacheManifest = [
     "url": "/assets/pwa-shorts-icons/android/android-launchericon-192-192.png"
   },
   {
-    "revision": "90f4c08a15d248239085475723e1b204",
-    "url": "/assets/pwa-shorts-icons/android/android-launchericon-144-144.png"
-  },
-  {
     "revision": "ba817517b2c4e1ba1ce802c4d4fafdb4",
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
     "revision": "2f7ce797cf8f198dedb9a9f38b7ef13b",
     "url": "/assets/icons/favicon-32x32.png"
+  },
+  {
+    "revision": "d712b605ed58419c7e6d4ab885d147b7",
+    "url": "/assets/icons/favicon-16x16.png"
   },
   {
     "revision": "a0e46feb3cc577478b127936e739dd08",
